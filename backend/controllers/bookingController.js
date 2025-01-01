@@ -1,4 +1,4 @@
-import bookingModels from "../models/bookingModel.js";
+import bookingModels from "../services/bookingService.js";
 import { formatResponse } from "../utils/responseHandler.js";
 
 const createBookingController = async (req, res) => {
